@@ -36,13 +36,8 @@ export default function Home() {
             description: site.tagline.en,
             telephone: site.phone,
             email: site.email,
-<<<<<<< HEAD
-            address: { '@type': 'PostalAddress', addressLocality: 'Makkah', addressCountry: 'SA' },
-            areaServed: 'Makkah, Saudi Arabia',
-=======
             address: { '@type': 'PostalAddress', streetAddress: site.address.en, addressLocality: site.city.en, addressCountry: 'SA' },
             areaServed: `${site.city.en}, ${site.country.en}`,
->>>>>>> 10f7d35 (Initial commit)
             openingHours: 'Mo-Su 00:00-24:00',
             priceRange: '$',
             aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.9', reviewCount: '5000' },

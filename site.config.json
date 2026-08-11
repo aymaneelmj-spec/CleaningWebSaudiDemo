@@ -27,7 +27,7 @@
   "phone": "+966566296228",
   "phoneDisplay": "+966 56 629 6228",
   "whatsapp": "966566296228",
-  "email": "",
+  "email": "info@zahranicleaners.com",
   "hours": {
     "ar": "مفتوح 24 ساعة",
     "en": "Open 24 Hours"
@@ -44,7 +44,7 @@
     "en": "Professional Cleaning Services in Jeddah"
   },
   "_seoNote": "These control the browser tab title, Google search snippet, and WhatsApp/Facebook link previews. 'domain' MUST be the real domain the site will be published on (no trailing slash) — update it once you have a real domain, otherwise search engines and link previews will point to the wrong place.",
-  "domain": "https://zahranicl eaners.com",
+  "domain": "https://zahranicleaners.com",
   "seoTitle": {
     "ar": "زهراني كلينرز | خدمات التنظيف في جدة",
     "en": "Zahrani Cleaners | Cleaning Services in Jeddah"

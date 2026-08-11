@@ -54,11 +54,7 @@ export function Navbar() {
                   {t(site.shortName.ar, site.shortName.en)}
                 </span>
                 <span className="text-[10px] text-muted-foreground mt-0.5">
-<<<<<<< HEAD
-                  {t('خدمات الغسيل في مكة المكرمة', 'Laundry Services in Makkah')}
-=======
                   {t(site.loadingTagline.ar, site.loadingTagline.en)}
->>>>>>> 10f7d35 (Initial commit)
                 </span>
               </div>
             </Link>

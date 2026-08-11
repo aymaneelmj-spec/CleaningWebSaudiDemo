@@ -68,24 +68,14 @@ export default function BlogPostPage() {
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 {t(
-<<<<<<< HEAD
-                  'في مغسلة أبراج البيت نستخدم أحدث المعدات والمواد المعتمدة لضمان أفضل النتائج. فريقنا مدرّب على أعلى المعايير العالمية للغسيل والتنظيف.',
-                  'At Abraj Al Bait Laundry, we use the latest equipment and certified materials to ensure the best results. Our team is trained to the highest international standards for laundry and cleaning.'
-=======
                   `في ${site.shortName.ar} نستخدم أحدث المعدات والمواد المعتمدة لضمان أفضل النتائج. فريقنا مدرّب على أعلى المعايير العالمية للتنظيف والتعقيم.`,
                   `At ${site.shortName.en}, we use the latest equipment and certified materials to ensure the best results. Our team is trained to the highest international standards for cleaning and sanitization.`
->>>>>>> 10f7d35 (Initial commit)
                 )}
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 {t(
-<<<<<<< HEAD
-                  'لحجز خدمة احترافية، تواصل معنا عبر واتساب على الرقم 966592052728+ أو اتصل مباشرة. نصل إليك في أي مكان في مكة المكرمة خلال ساعة واحدة.',
-                  'To book a professional service, contact us via WhatsApp at +966592052728 or call directly. We reach you anywhere in Makkah within one hour.'
-=======
                   `لحجز خدمة احترافية، تواصل معنا عبر واتساب على الرقم ${site.whatsapp}+ أو اتصل مباشرة. نصل إليك في أي مكان في ${site.city.ar} خلال ساعة واحدة.`,
                   `To book a professional service, contact us via WhatsApp at ${site.phoneDisplay} or call directly. We reach you anywhere in ${site.city.en} within one hour.`
->>>>>>> 10f7d35 (Initial commit)
                 )}
               </p>
             </div>

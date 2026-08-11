@@ -67,14 +67,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs mb-4">
-<<<<<<< HEAD
-              {t(
-                'الشركة الأولى لخدمات الغسيل والتنظيف في مكة المكرمة. نقدم خدمات غسيل احترافية بأحدث المعدات وأفضل المواد.',
-                'The #1 laundry and cleaning service company in Makkah. We provide professional laundry services with the latest equipment and best materials.'
-              )}
-=======
               {t(site.footerTagline.ar, site.footerTagline.en)}
->>>>>>> 10f7d35 (Initial commit)
             </p>
             <div className="flex gap-2">
               <Button asChild size="sm" className="rounded-full gradient-royal text-white border-0">

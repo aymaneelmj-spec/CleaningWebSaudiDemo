@@ -43,11 +43,7 @@ export function ContactSection() {
     { icon: Phone, label: t('الهاتف', 'Phone'), value: site.phoneDisplay, href: telLink },
     { icon: MessageCircle, label: t('واتساب', 'WhatsApp'), value: site.phoneDisplay, href: whatsappLink() },
     { icon: Mail, label: t('البريد', 'Email'), value: site.email, href: `mailto:${site.email}` },
-<<<<<<< HEAD
-    { icon: Clock, label: t('ساعات العمل', 'Hours'), value: t('24/7 متاح', '24/7 Available'), href: undefined },
-=======
     { icon: Clock, label: t('ساعات العمل', 'Hours'), value: t(site.hours.ar, site.hours.en), href: undefined },
->>>>>>> 10f7d35 (Initial commit)
     { icon: MapPin, label: t('العنوان', 'Address'), value: t(site.address.ar, site.address.en), href: undefined },
   ];
 

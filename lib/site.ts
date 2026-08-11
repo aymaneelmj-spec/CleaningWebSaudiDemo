@@ -1,23 +1,5 @@
 // ##SITE_CONFIG_START## — do not edit this block by hand, use site.config.json + UPDATE-SITE-INFO.bat instead
 export const site = {
-<<<<<<< HEAD
-  name: { ar: 'مغسلة أبراج البيت للغسيل والتنظيف', en: 'Abraj Al Bait Laundry & Cleaning' },
-  shortName: { ar: 'مغسلة أبراج البيت', en: 'Abraj Al Bait Laundry' },
-  tagline: {
-    ar: 'الشركة الأولى لخدمات الغسيل والتنظيف في المملكة العربية السعودية',
-    en: 'The #1 Laundry & Cleaning Service Company in Saudi Arabia',
-  },
-  city: { ar: 'مكة المكرمة', en: 'Makkah' },
-  country: { ar: 'المملكة العربية السعودية', en: 'Saudi Arabia' },
-  address: { ar: 'مكة المكرمة، المملكة العربية السعودية', en: 'Makkah, Saudi Arabia' },
-  phone: '+966592052728',
-  phoneDisplay: '+966 59 205 2728',
-  whatsapp: '966592052728',
-  email: 'info@abrajbaitlaundry.sa',
-  hours: { ar: 'متاح 24 ساعة / 7 أيام في الأسبوع', en: 'Available 24 hours / 7 days a week' },
-  founded: 2014,
-  mapsEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475322.94783832104!2d38.88150173279683!3d21.45043937817003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d0ece0c7dd2c7d%3A0xb976b5299a905378!2z2LTYsdmD2Kkg2KfZhNi02YXYsyDZg9mE2YrZhiDZhNmE2YbYuNin2YHYqSDYp9mE2LnYp9mF2Kk!5e0!3m2!1sen!2sma!4v1786055253968!5m2!1sen!2sma',
-=======
   name: { ar: "زهراني كلينرز", en: "Zahrani Cleaners" },
   shortName: { ar: "زهراني كلينرز", en: "Zahrani Cleaners" },
   tagline: { ar: "خدمات تنظيف احترافية وموثوقة في جدة", en: "Professional & Reliable Cleaning Services in Jeddah" },
@@ -27,7 +9,7 @@ export const site = {
   phone: "+966566296228",
   phoneDisplay: "+966 56 629 6228",
   whatsapp: "966566296228",
-  email: "",
+  email: "info@zahranicleaners.com",
   hours: { ar: "مفتوح 24 ساعة", en: "Open 24 Hours" },
   founded: null,
   mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d949726.0408127684!2d38.427543513642746!3d21.591100499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3db7c5fc60f5b%3A0xda763119a87e958a!2sZahrani%20Cleaners!5e0!3m2!1sen!2sma!4v1786400015407!5m2!1sen!2sma",
@@ -36,11 +18,10 @@ export const site = {
   mapsPlaceId: "0x15c3db7c5fc60f5b:0xda763119a87e958a",
   footerTagline: { ar: "زهراني كلينرز لخدمات التنظيف الاحترافية في جدة. نقدم خدمات موثوقة بجودة عالية واهتمام بأدق التفاصيل.", en: "Zahrani Cleaners provides professional cleaning services in Jeddah with reliable service, high quality, and attention to detail." },
   loadingTagline: { ar: "خدمات تنظيف احترافية في جدة", en: "Professional Cleaning Services in Jeddah" },
-  domain: "https://zahranicl eaners.com",
+  domain: "https://zahranicleaners.com",
   seoTitle: { ar: "زهراني كلينرز | خدمات التنظيف في جدة", en: "Zahrani Cleaners | Cleaning Services in Jeddah" },
   seoDescription: { ar: "زهراني كلينرز لخدمات التنظيف في جدة. نقدم خدمات تنظيف احترافية وموثوقة للمنازل والأعمال بجودة عالية.", en: "Zahrani Cleaners provides professional and reliable cleaning services in Jeddah for homes and businesses." },
   seoKeywords: ["شركة تنظيف جدة","شركات تنظيف جدة","تنظيف منازل جدة","خدمات تنظيف جدة","تنظيف فلل جدة","تنظيف مكاتب جدة","تنظيف شقق جدة","شركة تنظيف 24 ساعة جدة","cleaning company jeddah","cleaning services jeddah","house cleaning jeddah","home cleaning jeddah","professional cleaners jeddah","24 hour cleaning jeddah"],
->>>>>>> 10f7d35 (Initial commit)
 } as const;
 // ##SITE_CONFIG_END##
 

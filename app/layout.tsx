@@ -14,25 +14,6 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 const tajawal = Tajawal({ subsets: ['arabic'], weight: ['400', '500', '700', '800'], variable: '--font-arabic', display: 'swap' });
 
 export const metadata: Metadata = {
-<<<<<<< HEAD
-  metadataBase: new URL('https://abrajbaitlaundry.sa'),
-  title: {
-    default: 'مغسلة أبراج البيت | خدمات الغسيل والتنظيف في مكة المكرمة',
-    template: '%s | مغسلة أبراج البيت',
-  },
-  description:
-    'الشركة الأولى لخدمات الغسيل والتنظيف في مكة المكرمة والمملكة العربية السعودية. خدمة على مدار الساعة. اتصل الآن: 966592052728+',
-  keywords: [
-    'مغسلة مكة',
-    'غسيل ملابس مكة',
-    'تنظيف كنب مكة',
-    'تنظيف سجاد مكة',
-    'خدمات غسيل مكة',
-    'laundry Makkah',
-    'dry cleaning Makkah',
-    'carpet cleaning Makkah',
-  ],
-=======
   metadataBase: new URL(site.domain),
   title: {
     default: site.seoTitle.ar,
@@ -40,27 +21,10 @@ export const metadata: Metadata = {
   },
   description: site.seoDescription.ar,
   keywords: [...site.seoKeywords],
->>>>>>> 10f7d35 (Initial commit)
   openGraph: {
     type: 'website',
     locale: 'ar_SA',
     alternateLocale: 'en_US',
-<<<<<<< HEAD
-    url: 'https://abrajbaitlaundry.sa',
-    siteName: 'مغسلة أبراج البيت',
-    title: 'مغسلة أبراج البيت | خدمات الغسيل في مكة المكرمة',
-    description: 'الشركة الأولى لخدمات الغسيل والتنظيف في مكة المكرمة والمملكة العربية السعودية',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'مغسلة أبراج البيت' }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'مغسلة أبراج البيت',
-    description: 'الشركة الأولى لخدمات الغسيل في مكة المكرمة',
-    images: ['/og.png'],
-  },
-  robots: { index: true, follow: true },
-  alternates: { canonical: 'https://abrajbaitlaundry.sa' },
-=======
     url: site.domain,
     siteName: site.name.ar,
     title: site.seoTitle.ar,
@@ -75,7 +39,6 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   alternates: { canonical: site.domain },
->>>>>>> 10f7d35 (Initial commit)
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

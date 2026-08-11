@@ -8,32 +8,17 @@ import { serviceAreas, site } from '@/lib/site';
 import { StaggerContainer, StaggerItem } from '@/components/site/section-reveal';
 import { SectionHeading } from '@/components/site/section-heading';
 
-<<<<<<< HEAD
-const MAKKAH_COORDS = { lat: 21.4187787, lng: 39.2170051891 };
-const PLACE_ID = '0x15c205f1da83f541:0xf3b24d2f91ef57ef';
-
-=======
->>>>>>> 10f7d35 (Initial commit)
 function buildEmbedUrl(): string {
   const configured = site.mapsEmbed;
   if (configured && configured.startsWith('https://www.google.com/maps/embed')) {
     return configured;
   }
-<<<<<<< HEAD
-  return `https://www.google.com/maps?q=${MAKKAH_COORDS.lat},${MAKKAH_COORDS.lng}&z=11&output=embed`;
-}
-
-const STATIC_MAP_URL = `https://maps.googleapis.com/maps/api/staticmap?center=${MAKKAH_COORDS.lat},${MAKKAH_COORDS.lng}&zoom=11&size=600x400&scale=2&markers=color:red%7C${MAKKAH_COORDS.lat},${MAKKAH_COORDS.lng}&key=`;
-const MAPS_LINK = `https://www.google.com/maps/place/?q=place_id:${PLACE_ID}`;
-const DIRECTIONS_LINK = `https://www.google.com/maps/dir/?api=1&destination=${MAKKAH_COORDS.lat},${MAKKAH_COORDS.lng}`;
-=======
   return `https://www.google.com/maps?q=${site.mapsLat},${site.mapsLng}&z=15&output=embed`;
 }
 
 const STATIC_MAP_URL = `https://maps.googleapis.com/maps/api/staticmap?center=${site.mapsLat},${site.mapsLng}&zoom=15&size=600x400&scale=2&markers=color:red%7C${site.mapsLat},${site.mapsLng}&key=`;
 const MAPS_LINK = `https://www.google.com/maps/place/?q=place_id:${site.mapsPlaceId}`;
 const DIRECTIONS_LINK = `https://www.google.com/maps/dir/?api=1&destination=${site.mapsLat},${site.mapsLng}`;
->>>>>>> 10f7d35 (Initial commit)
 
 export function ServiceAreas() {
   const { lang, t } = useLang();
@@ -68,11 +53,7 @@ export function ServiceAreas() {
                 loading="lazy"
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
-<<<<<<< HEAD
-                title="Makkah Service Area Map"
-=======
                 title={`${site.city.en} Service Area Map`}
->>>>>>> 10f7d35 (Initial commit)
                 className="absolute inset-0 w-full h-full"
                 style={{ border: 0, borderRadius: 24 }}
                 onError={() => setEmbedFailed(true)}
@@ -87,11 +68,7 @@ export function ServiceAreas() {
                     backgroundPosition: 'center',
                     borderRadius: 24,
                   }}
-<<<<<<< HEAD
-                  aria-label="Static map of Makkah"
-=======
                   aria-label={`Static map of ${site.city.en}`}
->>>>>>> 10f7d35 (Initial commit)
                 />
                 <div className="absolute bottom-4 inset-x-4 flex flex-wrap gap-2 justify-center">
                   <a
@@ -119,11 +96,7 @@ export function ServiceAreas() {
             <div className="absolute top-4 start-4 glass-strong rounded-2xl px-4 py-3 flex items-center gap-2 pointer-events-none">
               <MapPin className="h-5 w-5 text-primary" />
               <span className={`text-sm font-medium ${lang === 'ar' ? 'font-arabic' : ''}`}>
-<<<<<<< HEAD
-                {t('مكة المكرمة، المملكة العربية السعودية', 'Makkah, Saudi Arabia')}
-=======
                 {t(site.address.ar, site.address.en)}
->>>>>>> 10f7d35 (Initial commit)
               </span>
             </div>
           </motion.div>
