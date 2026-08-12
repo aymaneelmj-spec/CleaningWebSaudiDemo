@@ -1,72 +1,73 @@
 {
   "_readme": "Edit the values below, save this file, then double-click UPDATE-SITE-INFO.bat in the project root. It will apply everything to the website automatically. Keep both 'ar' (Arabic) and 'en' (English) filled in for every field that has them. Do not rename the keys.",
   "name": {
-    "ar": "زهراني كلينرز",
-    "en": "Zahrani Cleaners"
+    "ar": "ممتاز لخدمات الغسيل",
+    "en": "Mumthaz Laundry service"
   },
   "shortName": {
-    "ar": "زهراني كلينرز",
-    "en": "Zahrani Cleaners"
+    "ar": "مغسلة ممتاز",
+    "en": "Mumthaz Laundry"
   },
   "tagline": {
-    "ar": "خدمات تنظيف احترافية وموثوقة في جدة",
-    "en": "Professional & Reliable Cleaning Services in Jeddah"
+    "ar": "خدمات غسيل وتنظيف احترافية وموثوقة في مكة المكرمة",
+    "en": "Professional & Reliable Laundry Services in Makkah"
   },
   "city": {
-    "ar": "جدة",
-    "en": "Jeddah"
+    "ar": "مكة المكرمة",
+    "en": "Makkah"
   },
   "country": {
     "ar": "المملكة العربية السعودية",
     "en": "Saudi Arabia"
   },
   "address": {
-    "ar": "حي السلامة، جدة 23437، المملكة العربية السعودية",
-    "en": "Kounouz Al Elm, As Salamah, Jeddah 23437, Saudi Arabia"
+    "ar": "أجياد، الحرم، مكة المكرمة، المملكة العربية السعودية",
+    "en": "Ajyad, Al Haram, Makkah, Saudi Arabia"
   },
-  "phone": "+966566296228",
-  "phoneDisplay": "+966 56 629 6228",
-  "whatsapp": "966566296228",
-  "email": "info@zahranicleaners.com",
+  "phone": "+966538635826",
+  "phoneDisplay": "+966 53 863 5826",
+  "whatsapp": "966538635826",
+  "email": "",
   "hours": {
     "ar": "مفتوح 24 ساعة",
     "en": "Open 24 Hours"
   },
   "founded": null,
   "_mapsNote": "Paste the FULL embed code from Google Maps 'Share > Embed a map' into mapsEmbedIframe below — the script will pull out the src link and the coordinates automatically. You do not need to edit mapsEmbed/mapsLat/mapsLng/mapsPlaceId by hand.",
-  "mapsEmbedIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d949726.0408127684!2d38.427543513642746!3d21.591100499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3db7c5fc60f5b%3A0xda763119a87e958a!2sZahrani%20Cleaners!5e0!3m2!1sen!2sma!4v1786400015407!5m2!1sen!2sma\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
+  "mapsEmbedIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d949726.0408127684!2d38.427543513642746!3d21.591100499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c2059a074922f3%3A0xa33fab3a0d906df5!2sMumthaz%20Laundry%20service!5e0!3m2!1sen!2sma!4v1786570952166!5m2!1sen!2sma\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
   "footerTagline": {
-    "ar": "زهراني كلينرز لخدمات التنظيف الاحترافية في جدة. نقدم خدمات موثوقة بجودة عالية واهتمام بأدق التفاصيل.",
-    "en": "Zahrani Cleaners provides professional cleaning services in Jeddah with reliable service, high quality, and attention to detail."
+    "ar": "مغسلة ممتاز لخدمات الغسيل والتنظيف الاحترافية في مكة المكرمة. نقدم خدمات موثوقة بجودة عالية واهتمام بأدق التفاصيل.",
+    "en": "Mumthaz Laundry provides professional laundry and cleaning services in Makkah with reliable service, high quality, and attention to detail."
   },
   "loadingTagline": {
-    "ar": "خدمات تنظيف احترافية في جدة",
-    "en": "Professional Cleaning Services in Jeddah"
+    "ar": "خدمات غسيل وتنظيف احترافية في مكة المكرمة",
+    "en": "Professional Laundry Services in Makkah"
   },
   "_seoNote": "These control the browser tab title, Google search snippet, and WhatsApp/Facebook link previews. 'domain' MUST be the real domain the site will be published on (no trailing slash) — update it once you have a real domain, otherwise search engines and link previews will point to the wrong place.",
-  "domain": "https://zahranicleaners.com",
+  "domain": "https://mumthazlaundry.com",
   "seoTitle": {
-    "ar": "زهراني كلينرز | خدمات التنظيف في جدة",
-    "en": "Zahrani Cleaners | Cleaning Services in Jeddah"
+    "ar": "مغسلة ممتاز | خدمات الغسيل في مكة المكرمة",
+    "en": "Mumthaz Laundry | Laundry Services in Makkah"
   },
   "seoDescription": {
-    "ar": "زهراني كلينرز لخدمات التنظيف في جدة. نقدم خدمات تنظيف احترافية وموثوقة للمنازل والأعمال بجودة عالية.",
-    "en": "Zahrani Cleaners provides professional and reliable cleaning services in Jeddah for homes and businesses."
+    "ar": "مغسلة ممتاز لخدمات الغسيل والتنظيف في مكة المكرمة. نقدم خدمات غسيل احترافية وموثوقة بجودة عالية.",
+    "en": "Mumthaz Laundry provides professional and reliable laundry services in Makkah with high quality and excellent service."
   },
   "seoKeywords": [
-    "شركة تنظيف جدة",
-    "شركات تنظيف جدة",
-    "تنظيف منازل جدة",
-    "خدمات تنظيف جدة",
-    "تنظيف فلل جدة",
-    "تنظيف مكاتب جدة",
-    "تنظيف شقق جدة",
-    "شركة تنظيف 24 ساعة جدة",
-    "cleaning company jeddah",
-    "cleaning services jeddah",
-    "house cleaning jeddah",
-    "home cleaning jeddah",
-    "professional cleaners jeddah",
-    "24 hour cleaning jeddah"
+    "مغسلة مكة",
+    "مغاسل مكة",
+    "مغسلة ملابس مكة",
+    "مغسلة أجياد",
+    "مغسلة الحرم",
+    "غسيل ملابس مكة",
+    "خدمات غسيل مكة",
+    "تنظيف ملابس مكة",
+    "مغسلة 24 ساعة مكة",
+    "laundry makkah",
+    "laundry service makkah",
+    "laundry near haram",
+    "laundry ajyad",
+    "laundry service mecca",
+    "24 hour laundry makkah"
   ]
 }
